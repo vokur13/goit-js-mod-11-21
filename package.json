@@ -1,0 +1,31 @@
+{
+  "name": "goit-js-mod-11-21",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://vokur13.github.io/goit-js-mod-11-21",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /goit-js-mod-11-21/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vokur13/goit-js-mod-11-21.git"
+  },
+  "keywords": [],
+  "author": "VOLODYMYR_KUROV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vokur13/goit-js-mod-11-21/issues"
+  },
+  "dependencies": {
+    "modern-normalize": "^1.1.0"
+  },
+  "devDependencies": {
+    "json-server": "^0.16.2",
+    "@parcel/transformer-sass": "^2.6.0",
+    "parcel": "^2.6.0",
+    "parcel-reporter-clean-dist": "^1.0.4",
+    "posthtml-include": "^1.7.4"
+  },
+  "browserslist": "> 0.5%, last 2 versions, not dead"
+}
